@@ -46,8 +46,48 @@
 <body>
   <div class="title-container">
     <h1>HELLCAT</h1>
-    <p>another stupid website</p>
+    <p>another stupid website</p>    
   </div>
+  
+  <div class="profile-card">
+  <img src="assets/img/your-photo.jpg" alt="Profile Picture" class="profile-pic">
+  <div class="profile-text">
+    <p>test</p>
+    <p>test123123123</p>
+  </div>
+</div>
+  
+<style>
+  .profile-card {
+    margin-top: 50px;
+    width: 600px;
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+    position: relative;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    float: left;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+
+  .profile-text {
+    overflow: hidden; /* 사진 옆 글자가 자연스럽게 흘러내리게 */
+  }
+
+  .profile-text p {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+</style>
+
 
   <div class="center-space">
     <!-- 공란 -->
