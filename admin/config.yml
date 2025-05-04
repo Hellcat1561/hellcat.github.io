@@ -2,8 +2,9 @@ backend:
   name: github
   repo: hellcat1561/hellcat.github.io
   branch: main
-  base_url: https://your-proxy-server.com
+  base_url: https://hellcat-cms-oauth.fly.dev
   auth_endpoint: auth
+  token_endpoint: token
 
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
